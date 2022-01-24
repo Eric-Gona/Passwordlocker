@@ -38,7 +38,7 @@ def save_credential(credential):
     """
     credential.save_credential()
 
- """
+ 
 def delete_credential(credential):
     """
     Function to delete credential
@@ -52,7 +52,7 @@ def find_credential(acnt_username):
     """
     return Credential.find_by_acnt_username(acnt_username)
 
-
+"""
 def check_existing_credentials(acnt_username):
     """
     Function to check existing credential
