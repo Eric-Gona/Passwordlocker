@@ -24,7 +24,7 @@ def delete_user(user):
     """
     user.delete_user()
     
-    """
+   
 def create_credential(account, acnt_username, acnt_password):
     """
     Parameters
@@ -38,7 +38,7 @@ def save_credential(credential):
     """
     credential.save_credential()
 
-
+ """
 def delete_credential(credential):
     """
     Function to delete credential
