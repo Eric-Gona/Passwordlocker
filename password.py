@@ -23,7 +23,7 @@ class User:
         User.user_list.append(self)
         
         
-      """  
+     
 class Credential:
     """
     Class that generates instances of credential
@@ -51,7 +51,7 @@ class Credential:
 
     def test_save_credential(self):
         pass
-    
+     """  
     @classmethod
     def find_by_acnt_username(cls, acnt_username):
         for credential in cls.credential_list:
