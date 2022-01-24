@@ -1,4 +1,4 @@
-"""
+
 from password import User, Credential
 import getpass
 import string
@@ -24,7 +24,7 @@ def delete_user(user):
     """
     user.delete_user()
     
-    
+    """
 def create_credential(account, acnt_username, acnt_password):
     """
     Parameters
