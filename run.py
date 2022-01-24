@@ -52,7 +52,7 @@ def find_credential(acnt_username):
     """
     return Credential.find_by_acnt_username(acnt_username)
 
-"""
+
 def check_existing_credentials(acnt_username):
     """
     Function to check existing credential
@@ -64,7 +64,7 @@ def check_existing_credentials(acnt_username):
     """
     return Credential.find_by_acnt_username(acnt_username)
 
-
+"""
 def display_credentials():
     """
     Function to display credential
