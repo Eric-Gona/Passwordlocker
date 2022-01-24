@@ -1,7 +1,7 @@
-"""
+
 import unittest
 from password import User, Credential
-
+"""
 class TestUser(unittest.TestCase):
     """
         Test class that defines test cases for the user class behaviours.
