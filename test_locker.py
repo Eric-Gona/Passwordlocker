@@ -1,7 +1,7 @@
 
 import unittest
 from password import User, Credential
-"""
+
 class TestUser(unittest.TestCase):
     """
         Test class that defines test cases for the user class behaviours.
@@ -10,7 +10,7 @@ class TestUser(unittest.TestCase):
     def setUp(self):
         self.created_user = User("Brian", "1234@345ghjk")
 
-
+"""
     def tearDown(self):
         User.user_list = []
 
