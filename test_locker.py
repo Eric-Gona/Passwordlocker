@@ -10,7 +10,7 @@ class TestUser(unittest.TestCase):
     def setUp(self):
         self.created_user = User("Brian", "1234@345ghjk")
 
-"""
+
     def tearDown(self):
         User.user_list = []
 
@@ -30,7 +30,7 @@ class TestUser(unittest.TestCase):
 
         self.created_user.delete_user()
         self.assertEqual(len(User.user_list), 1)
-        
+        """
     def test_save_user(self):
         """
         test_save_user test case to test if the user object is saved into
