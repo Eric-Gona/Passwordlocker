@@ -8,7 +8,7 @@ class User:
         self.name = user_name
         self.password= password
 
-"""
+
     def delete_user(self):
         """
         delete_user method deletes saved contact
@@ -23,7 +23,7 @@ class User:
         User.user_list.append(self)
         
         
-        
+      """  
 class Credential:
     """
     Class that generates instances of credential
